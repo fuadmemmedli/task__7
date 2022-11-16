@@ -1,0 +1,51 @@
+.country + .country1 + .country2 {
+    background-color: rgb(251, 255, 0);
+  }
+  
+  
+  #hello:hover{
+    color: aquamarine;
+  
+  }
+  
+  .name,.surname{
+      color: grey;
+  }
+  input:checked {
+      height: 100px;
+      width: 100px;
+  }
+    p:first-child {
+      background-color:green;
+    }
+    
+    p:last-child {
+      background-color: red;
+    }
+  
+    a:visited { 
+      color: orange;
+    }
+    /*
+    div > p {
+      background-color: yellow;
+    }
+    */
+  
+    a:active {
+      background-color: aqua;
+    }
+  
+    /*
+    a[target=_blank] {
+      background-color: sienna;
+    }
+  
+  */
+  input[type=text]:enabled {
+      background: #ffff00;
+    }
+    
+    input[type=text]:disabled {
+      background: #dddddd;
+    }
